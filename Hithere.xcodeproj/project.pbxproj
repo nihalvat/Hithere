@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E13E5441AFEBE5A0018A3F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E13E5431AFEBE5A0018A3F1 /* UIKit.framework */; };
+		9E13E5461AFEBE5A0018A3F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E13E5451AFEBE5A0018A3F1 /* Foundation.framework */; };
+		9E13E5481AFEBE5A0018A3F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E13E5471AFEBE5A0018A3F1 /* CoreGraphics.framework */; };
+		9E13E54E1AFEBE5A0018A3F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E13E54C1AFEBE5A0018A3F1 /* InfoPlist.strings */; };
+		9E13E5501AFEBE5A0018A3F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13E54F1AFEBE5A0018A3F1 /* main.m */; };
+		9E13E5541AFEBE5A0018A3F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13E5531AFEBE5A0018A3F1 /* AppDelegate.m */; };
+		9E13E5571AFEBE5A0018A3F1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E13E5551AFEBE5A0018A3F1 /* MainStoryboard.storyboard */; };
+		9E13E55A1AFEBE5A0018A3F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13E5591AFEBE5A0018A3F1 /* ViewController.m */; };
+		9E13E5621AFEBE5A0018A3F1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E13E5611AFEBE5A0018A3F1 /* SenTestingKit.framework */; };
+		9E13E5631AFEBE5A0018A3F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E13E5431AFEBE5A0018A3F1 /* UIKit.framework */; };
+		9E13E5641AFEBE5A0018A3F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E13E5451AFEBE5A0018A3F1 /* Foundation.framework */; };
+		9E13E56C1AFEBE5A0018A3F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E13E56A1AFEBE5A0018A3F1 /* InfoPlist.strings */; };
+		9E13E56F1AFEBE5A0018A3F1 /* HithereTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13E56E1AFEBE5A0018A3F1 /* HithereTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E13E5651AFEBE5A0018A3F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E13E5361AFEBE5A0018A3F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E13E53E1AFEBE5A0018A3F1;
+			remoteInfo = Hithere;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E13E53F1AFEBE5A0018A3F1 /* Hithere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hithere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E13E5431AFEBE5A0018A3F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9E13E5451AFEBE5A0018A3F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9E13E5471AFEBE5A0018A3F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9E13E54B1AFEBE5A0018A3F1 /* Hithere-Info.plist */ = {isa = PBXFileReference; path = "Hithere-Info.plist"; sourceTree = "<group>"; };
+		9E13E54D1AFEBE5A0018A3F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E13E54F1AFEBE5A0018A3F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E13E5511AFEBE5A0018A3F1 /* Hithere-Prefix.pch */ = {isa = PBXFileReference; path = "Hithere-Prefix.pch"; sourceTree = "<group>"; };
+		9E13E5521AFEBE5A0018A3F1 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E13E5531AFEBE5A0018A3F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9E13E5561AFEBE5A0018A3F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9E13E5581AFEBE5A0018A3F1 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		9E13E5591AFEBE5A0018A3F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9E13E5601AFEBE5A0018A3F1 /* HithereTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HithereTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E13E5611AFEBE5A0018A3F1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9E13E5691AFEBE5A0018A3F1 /* HithereTests-Info.plist */ = {isa = PBXFileReference; path = "HithereTests-Info.plist"; sourceTree = "<group>"; };
+		9E13E56B1AFEBE5A0018A3F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E13E56D1AFEBE5A0018A3F1 /* HithereTests.h */ = {isa = PBXFileReference; path = HithereTests.h; sourceTree = "<group>"; };
+		9E13E56E1AFEBE5A0018A3F1 /* HithereTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HithereTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E13E53C1AFEBE5A0018A3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E13E5441AFEBE5A0018A3F1 /* UIKit.framework in Frameworks */,
+				9E13E5461AFEBE5A0018A3F1 /* Foundation.framework in Frameworks */,
+				9E13E5481AFEBE5A0018A3F1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E13E55C1AFEBE5A0018A3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E13E5621AFEBE5A0018A3F1 /* SenTestingKit.framework in Frameworks */,
+				9E13E5631AFEBE5A0018A3F1 /* UIKit.framework in Frameworks */,
+				9E13E5641AFEBE5A0018A3F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E13E5341AFEBE5A0018A3F1 = {
+			isa = PBXGroup;
+			children = (
+				9E13E5491AFEBE5A0018A3F1 /* Hithere */,
+				9E13E5671AFEBE5A0018A3F1 /* HithereTests */,
+				9E13E5421AFEBE5A0018A3F1 /* Frameworks */,
+				9E13E5401AFEBE5A0018A3F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E13E5401AFEBE5A0018A3F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E13E53F1AFEBE5A0018A3F1 /* Hithere.app */,
+				9E13E5601AFEBE5A0018A3F1 /* HithereTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E13E5421AFEBE5A0018A3F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E13E5431AFEBE5A0018A3F1 /* UIKit.framework */,
+				9E13E5451AFEBE5A0018A3F1 /* Foundation.framework */,
+				9E13E5471AFEBE5A0018A3F1 /* CoreGraphics.framework */,
+				9E13E5611AFEBE5A0018A3F1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E13E5491AFEBE5A0018A3F1 /* Hithere */ = {
+			isa = PBXGroup;
+			children = (
+				9E13E5521AFEBE5A0018A3F1 /* AppDelegate.h */,
+				9E13E5531AFEBE5A0018A3F1 /* AppDelegate.m */,
+				9E13E5551AFEBE5A0018A3F1 /* MainStoryboard.storyboard */,
+				9E13E5581AFEBE5A0018A3F1 /* ViewController.h */,
+				9E13E5591AFEBE5A0018A3F1 /* ViewController.m */,
+				9E13E54A1AFEBE5A0018A3F1 /* Supporting Files */,
+			);
+			path = Hithere;
+			sourceTree = "<group>";
+		};
+		9E13E54A1AFEBE5A0018A3F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E13E54B1AFEBE5A0018A3F1 /* Hithere-Info.plist */,
+				9E13E54C1AFEBE5A0018A3F1 /* InfoPlist.strings */,
+				9E13E54F1AFEBE5A0018A3F1 /* main.m */,
+				9E13E5511AFEBE5A0018A3F1 /* Hithere-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E13E5671AFEBE5A0018A3F1 /* HithereTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E13E56D1AFEBE5A0018A3F1 /* HithereTests.h */,
+				9E13E56E1AFEBE5A0018A3F1 /* HithereTests.m */,
+				9E13E5681AFEBE5A0018A3F1 /* Supporting Files */,
+			);
+			path = HithereTests;
+			sourceTree = "<group>";
+		};
+		9E13E5681AFEBE5A0018A3F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E13E5691AFEBE5A0018A3F1 /* HithereTests-Info.plist */,
+				9E13E56A1AFEBE5A0018A3F1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E13E53E1AFEBE5A0018A3F1 /* Hithere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E13E5721AFEBE5A0018A3F1 /* Build configuration list for PBXNativeTarget "Hithere" */;
+			buildPhases = (
+				9E13E53B1AFEBE5A0018A3F1 /* Sources */,
+				9E13E53C1AFEBE5A0018A3F1 /* Frameworks */,
+				9E13E53D1AFEBE5A0018A3F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hithere;
+			productName = Hithere;
+			productReference = 9E13E53F1AFEBE5A0018A3F1 /* Hithere.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E13E55F1AFEBE5A0018A3F1 /* HithereTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E13E5751AFEBE5A0018A3F1 /* Build configuration list for PBXNativeTarget "HithereTests" */;
+			buildPhases = (
+				9E13E55B1AFEBE5A0018A3F1 /* Sources */,
+				9E13E55C1AFEBE5A0018A3F1 /* Frameworks */,
+				9E13E55D1AFEBE5A0018A3F1 /* Resources */,
+				9E13E55E1AFEBE5A0018A3F1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E13E5661AFEBE5A0018A3F1 /* PBXTargetDependency */,
+			);
+			name = HithereTests;
+			productName = HithereTests;
+			productReference = 9E13E5601AFEBE5A0018A3F1 /* HithereTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E13E5361AFEBE5A0018A3F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9E13E5391AFEBE5A0018A3F1 /* Build configuration list for PBXProject "Hithere" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9E13E5341AFEBE5A0018A3F1;
+			productRefGroup = 9E13E5401AFEBE5A0018A3F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E13E53E1AFEBE5A0018A3F1 /* Hithere */,
+				9E13E55F1AFEBE5A0018A3F1 /* HithereTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E13E53D1AFEBE5A0018A3F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E13E54E1AFEBE5A0018A3F1 /* InfoPlist.strings in Resources */,
+				9E13E5571AFEBE5A0018A3F1 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E13E55D1AFEBE5A0018A3F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E13E56C1AFEBE5A0018A3F1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E13E55E1AFEBE5A0018A3F1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E13E53B1AFEBE5A0018A3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E13E5501AFEBE5A0018A3F1 /* main.m in Sources */,
+				9E13E5541AFEBE5A0018A3F1 /* AppDelegate.m in Sources */,
+				9E13E55A1AFEBE5A0018A3F1 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E13E55B1AFEBE5A0018A3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E13E56F1AFEBE5A0018A3F1 /* HithereTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E13E5661AFEBE5A0018A3F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E13E53E1AFEBE5A0018A3F1 /* Hithere */;
+			targetProxy = 9E13E5651AFEBE5A0018A3F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E13E54C1AFEBE5A0018A3F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E13E54D1AFEBE5A0018A3F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9E13E5551AFEBE5A0018A3F1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E13E5561AFEBE5A0018A3F1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		9E13E56A1AFEBE5A0018A3F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E13E56B1AFEBE5A0018A3F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E13E5701AFEBE5A0018A3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9E13E5711AFEBE5A0018A3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E13E5731AFEBE5A0018A3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hithere/Hithere-Prefix.pch";
+				INFOPLIST_FILE = "Hithere/Hithere-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9E13E5741AFEBE5A0018A3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hithere/Hithere-Prefix.pch";
+				INFOPLIST_FILE = "Hithere/Hithere-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9E13E5761AFEBE5A0018A3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hithere.app/Hithere";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hithere/Hithere-Prefix.pch";
+				INFOPLIST_FILE = "HithereTests/HithereTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9E13E5771AFEBE5A0018A3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hithere.app/Hithere";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hithere/Hithere-Prefix.pch";
+				INFOPLIST_FILE = "HithereTests/HithereTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E13E5391AFEBE5A0018A3F1 /* Build configuration list for PBXProject "Hithere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E13E5701AFEBE5A0018A3F1 /* Debug */,
+				9E13E5711AFEBE5A0018A3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E13E5721AFEBE5A0018A3F1 /* Build configuration list for PBXNativeTarget "Hithere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E13E5731AFEBE5A0018A3F1 /* Debug */,
+				9E13E5741AFEBE5A0018A3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9E13E5751AFEBE5A0018A3F1 /* Build configuration list for PBXNativeTarget "HithereTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E13E5761AFEBE5A0018A3F1 /* Debug */,
+				9E13E5771AFEBE5A0018A3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E13E5361AFEBE5A0018A3F1 /* Project object */;
+}
