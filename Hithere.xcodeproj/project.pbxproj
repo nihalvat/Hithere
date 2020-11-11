@@ -20,6 +20,24 @@
 		9E13E5641AFEBE5A0018A3F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E13E5451AFEBE5A0018A3F1 /* Foundation.framework */; };
 		9E13E56C1AFEBE5A0018A3F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E13E56A1AFEBE5A0018A3F1 /* InfoPlist.strings */; };
 		9E13E56F1AFEBE5A0018A3F1 /* HithereTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13E56E1AFEBE5A0018A3F1 /* HithereTests.m */; };
+		9E13E59B1AFEBF510018A3F1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E13E5791AFEBF510018A3F1 /* LaunchScreen.xib */; };
+		9E13E59C1AFEBF510018A3F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E13E57B1AFEBF510018A3F1 /* Main.storyboard */; };
+		9E13E59D1AFEBF510018A3F1 /* ChatSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13E57E1AFEBF510018A3F1 /* ChatSegue.m */; };
+		9E13E59E1AFEBF510018A3F1 /* ChatViewContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13E5801AFEBF510018A3F1 /* ChatViewContoller.m */; };
+		9E13E59F1AFEBF510018A3F1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13E5821AFEBF510018A3F1 /* FirstViewController.m */; };
+		9E13E5A01AFEBF510018A3F1 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13E5841AFEBF510018A3F1 /* FriendsViewController.m */; };
+		9E13E5A11AFEBF510018A3F1 /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13E5861AFEBF510018A3F1 /* Group.m */; };
+		9E13E5A21AFEBF510018A3F1 /* GroupAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13E5881AFEBF510018A3F1 /* GroupAddViewController.m */; };
+		9E13E5A31AFEBF510018A3F1 /* GroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13E58A1AFEBF510018A3F1 /* GroupViewController.m */; };
+		9E13E5A41AFEBF510018A3F1 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E13E58D1AFEBF510018A3F1 /* Contents.json */; };
+		9E13E5A51AFEBF510018A3F1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E13E58E1AFEBF510018A3F1 /* Info.plist */; };
+		9E13E5A61AFEBF510018A3F1 /* LoginSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13E5901AFEBF510018A3F1 /* LoginSegue.m */; };
+		9E13E5A71AFEBF510018A3F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13E5911AFEBF510018A3F1 /* main.m */; };
+		9E13E5A81AFEBF510018A3F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E13E5921AFEBF510018A3F1 /* Main.storyboard */; };
+		9E13E5A91AFEBF510018A3F1 /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13E5941AFEBF510018A3F1 /* MapAnnotation.m */; };
+		9E13E5AA1AFEBF510018A3F1 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13E5961AFEBF510018A3F1 /* MapViewController.m */; };
+		9E13E5AB1AFEBF510018A3F1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13E5981AFEBF510018A3F1 /* SecondViewController.m */; };
+		9E13E5AC1AFEBF510018A3F1 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13E59A1AFEBF510018A3F1 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +55,51 @@
 		9E13E5431AFEBE5A0018A3F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9E13E5451AFEBE5A0018A3F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9E13E5471AFEBE5A0018A3F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9E13E54B1AFEBE5A0018A3F1 /* Hithere-Info.plist */ = {isa = PBXFileReference; path = "Hithere-Info.plist"; sourceTree = "<group>"; };
+		9E13E54B1AFEBE5A0018A3F1 /* Hithere-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hithere-Info.plist"; sourceTree = "<group>"; };
 		9E13E54D1AFEBE5A0018A3F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9E13E54F1AFEBE5A0018A3F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9E13E5511AFEBE5A0018A3F1 /* Hithere-Prefix.pch */ = {isa = PBXFileReference; path = "Hithere-Prefix.pch"; sourceTree = "<group>"; };
-		9E13E5521AFEBE5A0018A3F1 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E13E5511AFEBE5A0018A3F1 /* Hithere-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hithere-Prefix.pch"; sourceTree = "<group>"; };
+		9E13E5521AFEBE5A0018A3F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9E13E5531AFEBE5A0018A3F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9E13E5561AFEBE5A0018A3F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		9E13E5581AFEBE5A0018A3F1 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		9E13E5581AFEBE5A0018A3F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9E13E5591AFEBE5A0018A3F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9E13E5601AFEBE5A0018A3F1 /* HithereTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HithereTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E13E5611AFEBE5A0018A3F1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		9E13E5691AFEBE5A0018A3F1 /* HithereTests-Info.plist */ = {isa = PBXFileReference; path = "HithereTests-Info.plist"; sourceTree = "<group>"; };
+		9E13E5691AFEBE5A0018A3F1 /* HithereTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HithereTests-Info.plist"; sourceTree = "<group>"; };
 		9E13E56B1AFEBE5A0018A3F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9E13E56D1AFEBE5A0018A3F1 /* HithereTests.h */ = {isa = PBXFileReference; path = HithereTests.h; sourceTree = "<group>"; };
+		9E13E56D1AFEBE5A0018A3F1 /* HithereTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HithereTests.h; sourceTree = "<group>"; };
 		9E13E56E1AFEBE5A0018A3F1 /* HithereTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HithereTests.m; sourceTree = "<group>"; };
+		9E13E57A1AFEBF510018A3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		9E13E57C1AFEBF510018A3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		9E13E57D1AFEBF510018A3F1 /* ChatSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatSegue.h; path = ../../../Desktop/Hithere/Hithere/ChatSegue.h; sourceTree = "<group>"; };
+		9E13E57E1AFEBF510018A3F1 /* ChatSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatSegue.m; path = ../../../Desktop/Hithere/Hithere/ChatSegue.m; sourceTree = "<group>"; };
+		9E13E57F1AFEBF510018A3F1 /* ChatViewContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatViewContoller.h; path = ../../../Desktop/Hithere/Hithere/ChatViewContoller.h; sourceTree = "<group>"; };
+		9E13E5801AFEBF510018A3F1 /* ChatViewContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatViewContoller.m; path = ../../../Desktop/Hithere/Hithere/ChatViewContoller.m; sourceTree = "<group>"; };
+		9E13E5811AFEBF510018A3F1 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = ../../../Desktop/Hithere/Hithere/FirstViewController.h; sourceTree = "<group>"; };
+		9E13E5821AFEBF510018A3F1 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = ../../../Desktop/Hithere/Hithere/FirstViewController.m; sourceTree = "<group>"; };
+		9E13E5831AFEBF510018A3F1 /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendsViewController.h; path = ../../../Desktop/Hithere/Hithere/FriendsViewController.h; sourceTree = "<group>"; };
+		9E13E5841AFEBF510018A3F1 /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendsViewController.m; path = ../../../Desktop/Hithere/Hithere/FriendsViewController.m; sourceTree = "<group>"; };
+		9E13E5851AFEBF510018A3F1 /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Group.h; path = ../../../Desktop/Hithere/Hithere/Group.h; sourceTree = "<group>"; };
+		9E13E5861AFEBF510018A3F1 /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Group.m; path = ../../../Desktop/Hithere/Hithere/Group.m; sourceTree = "<group>"; };
+		9E13E5871AFEBF510018A3F1 /* GroupAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupAddViewController.h; path = ../../../Desktop/Hithere/Hithere/GroupAddViewController.h; sourceTree = "<group>"; };
+		9E13E5881AFEBF510018A3F1 /* GroupAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroupAddViewController.m; path = ../../../Desktop/Hithere/Hithere/GroupAddViewController.m; sourceTree = "<group>"; };
+		9E13E5891AFEBF510018A3F1 /* GroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupViewController.h; path = ../../../Desktop/Hithere/Hithere/GroupViewController.h; sourceTree = "<group>"; };
+		9E13E58A1AFEBF510018A3F1 /* GroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroupViewController.m; path = ../../../Desktop/Hithere/Hithere/GroupViewController.m; sourceTree = "<group>"; };
+		9E13E58D1AFEBF510018A3F1 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		9E13E58E1AFEBF510018A3F1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../Desktop/Hithere/Hithere/Info.plist; sourceTree = "<group>"; };
+		9E13E58F1AFEBF510018A3F1 /* LoginSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginSegue.h; path = ../../../Desktop/Hithere/Hithere/LoginSegue.h; sourceTree = "<group>"; };
+		9E13E5901AFEBF510018A3F1 /* LoginSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginSegue.m; path = ../../../Desktop/Hithere/Hithere/LoginSegue.m; sourceTree = "<group>"; };
+		9E13E5911AFEBF510018A3F1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../../../Desktop/Hithere/Hithere/main.m; sourceTree = "<group>"; };
+		9E13E5921AFEBF510018A3F1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../Desktop/Hithere/Hithere/Main.storyboard; sourceTree = "<group>"; };
+		9E13E5931AFEBF510018A3F1 /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapAnnotation.h; path = ../../../Desktop/Hithere/Hithere/MapAnnotation.h; sourceTree = "<group>"; };
+		9E13E5941AFEBF510018A3F1 /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapAnnotation.m; path = ../../../Desktop/Hithere/Hithere/MapAnnotation.m; sourceTree = "<group>"; };
+		9E13E5951AFEBF510018A3F1 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = ../../../Desktop/Hithere/Hithere/MapViewController.h; sourceTree = "<group>"; };
+		9E13E5961AFEBF510018A3F1 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = ../../../Desktop/Hithere/Hithere/MapViewController.m; sourceTree = "<group>"; };
+		9E13E5971AFEBF510018A3F1 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = ../../../Desktop/Hithere/Hithere/SecondViewController.h; sourceTree = "<group>"; };
+		9E13E5981AFEBF510018A3F1 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = ../../../Desktop/Hithere/Hithere/SecondViewController.m; sourceTree = "<group>"; };
+		9E13E5991AFEBF510018A3F1 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = ../../../Desktop/Hithere/Hithere/User.h; sourceTree = "<group>"; };
+		9E13E59A1AFEBF510018A3F1 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = ../../../Desktop/Hithere/Hithere/User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +161,35 @@
 			children = (
 				9E13E5521AFEBE5A0018A3F1 /* AppDelegate.h */,
 				9E13E5531AFEBE5A0018A3F1 /* AppDelegate.m */,
+				9E13E5781AFEBF510018A3F1 /* Base.lproj */,
+				9E13E57D1AFEBF510018A3F1 /* ChatSegue.h */,
+				9E13E57E1AFEBF510018A3F1 /* ChatSegue.m */,
+				9E13E57F1AFEBF510018A3F1 /* ChatViewContoller.h */,
+				9E13E5801AFEBF510018A3F1 /* ChatViewContoller.m */,
+				9E13E5811AFEBF510018A3F1 /* FirstViewController.h */,
+				9E13E5821AFEBF510018A3F1 /* FirstViewController.m */,
+				9E13E5831AFEBF510018A3F1 /* FriendsViewController.h */,
+				9E13E5841AFEBF510018A3F1 /* FriendsViewController.m */,
+				9E13E5851AFEBF510018A3F1 /* Group.h */,
+				9E13E5861AFEBF510018A3F1 /* Group.m */,
+				9E13E5871AFEBF510018A3F1 /* GroupAddViewController.h */,
+				9E13E5881AFEBF510018A3F1 /* GroupAddViewController.m */,
+				9E13E5891AFEBF510018A3F1 /* GroupViewController.h */,
+				9E13E58A1AFEBF510018A3F1 /* GroupViewController.m */,
+				9E13E58B1AFEBF510018A3F1 /* Images.xcassets */,
+				9E13E58E1AFEBF510018A3F1 /* Info.plist */,
+				9E13E58F1AFEBF510018A3F1 /* LoginSegue.h */,
+				9E13E5901AFEBF510018A3F1 /* LoginSegue.m */,
+				9E13E5911AFEBF510018A3F1 /* main.m */,
+				9E13E5921AFEBF510018A3F1 /* Main.storyboard */,
+				9E13E5931AFEBF510018A3F1 /* MapAnnotation.h */,
+				9E13E5941AFEBF510018A3F1 /* MapAnnotation.m */,
+				9E13E5951AFEBF510018A3F1 /* MapViewController.h */,
+				9E13E5961AFEBF510018A3F1 /* MapViewController.m */,
+				9E13E5971AFEBF510018A3F1 /* SecondViewController.h */,
+				9E13E5981AFEBF510018A3F1 /* SecondViewController.m */,
+				9E13E5991AFEBF510018A3F1 /* User.h */,
+				9E13E59A1AFEBF510018A3F1 /* User.m */,
 				9E13E5551AFEBE5A0018A3F1 /* MainStoryboard.storyboard */,
 				9E13E5581AFEBE5A0018A3F1 /* ViewController.h */,
 				9E13E5591AFEBE5A0018A3F1 /* ViewController.m */,
@@ -149,6 +226,33 @@
 				9E13E56A1AFEBE5A0018A3F1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E13E5781AFEBF510018A3F1 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				9E13E5791AFEBF510018A3F1 /* LaunchScreen.xib */,
+				9E13E57B1AFEBF510018A3F1 /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = ../../../Desktop/Hithere/Hithere/Base.lproj;
+			sourceTree = "<group>";
+		};
+		9E13E58B1AFEBF510018A3F1 /* Images.xcassets */ = {
+			isa = PBXGroup;
+			children = (
+				9E13E58C1AFEBF510018A3F1 /* AppIcon.appiconset */,
+			);
+			name = Images.xcassets;
+			path = ../../../Desktop/Hithere/Hithere/Images.xcassets;
+			sourceTree = "<group>";
+		};
+		9E13E58C1AFEBF510018A3F1 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				9E13E58D1AFEBF510018A3F1 /* Contents.json */,
+			);
+			path = AppIcon.appiconset;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +308,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 9E13E5341AFEBE5A0018A3F1;
 			productRefGroup = 9E13E5401AFEBE5A0018A3F1 /* Products */;
@@ -223,6 +328,11 @@
 			files = (
 				9E13E54E1AFEBE5A0018A3F1 /* InfoPlist.strings in Resources */,
 				9E13E5571AFEBE5A0018A3F1 /* MainStoryboard.storyboard in Resources */,
+				9E13E59B1AFEBF510018A3F1 /* LaunchScreen.xib in Resources */,
+				9E13E59C1AFEBF510018A3F1 /* Main.storyboard in Resources */,
+				9E13E5A41AFEBF510018A3F1 /* Contents.json in Resources */,
+				9E13E5A51AFEBF510018A3F1 /* Info.plist in Resources */,
+				9E13E5A81AFEBF510018A3F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +370,19 @@
 				9E13E5501AFEBE5A0018A3F1 /* main.m in Sources */,
 				9E13E5541AFEBE5A0018A3F1 /* AppDelegate.m in Sources */,
 				9E13E55A1AFEBE5A0018A3F1 /* ViewController.m in Sources */,
+				9E13E59D1AFEBF510018A3F1 /* ChatSegue.m in Sources */,
+				9E13E59E1AFEBF510018A3F1 /* ChatViewContoller.m in Sources */,
+				9E13E59F1AFEBF510018A3F1 /* FirstViewController.m in Sources */,
+				9E13E5A01AFEBF510018A3F1 /* FriendsViewController.m in Sources */,
+				9E13E5A11AFEBF510018A3F1 /* Group.m in Sources */,
+				9E13E5A21AFEBF510018A3F1 /* GroupAddViewController.m in Sources */,
+				9E13E5A31AFEBF510018A3F1 /* GroupViewController.m in Sources */,
+				9E13E5A61AFEBF510018A3F1 /* LoginSegue.m in Sources */,
+				9E13E5A71AFEBF510018A3F1 /* main.m in Sources */,
+				9E13E5A91AFEBF510018A3F1 /* MapAnnotation.m in Sources */,
+				9E13E5AA1AFEBF510018A3F1 /* MapViewController.m in Sources */,
+				9E13E5AB1AFEBF510018A3F1 /* SecondViewController.m in Sources */,
+				9E13E5AC1AFEBF510018A3F1 /* User.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +427,22 @@
 				9E13E56B1AFEBE5A0018A3F1 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9E13E5791AFEBF510018A3F1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E13E57A1AFEBF510018A3F1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		9E13E57B1AFEBF510018A3F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E13E57C1AFEBF510018A3F1 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
